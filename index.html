@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>DBMS veille technologique</title>
+	
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+        
+	 <header class="masthead bg-primary text-white text-center">
+	 	
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Explication du système de gestion de base de données (DBMS)</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0"></p>
+            </div>
+       
+        </header><br>
+
+        <div class="image1"><img src="sgbd.png"></div><br><br>
+
+  
+ 
+  <div class="container2_index">
+  	<p> 
+  		Rares sont les applications web ou de bureau capables de fonctionner sans un système de base de données adapté. C’est précisément la raison pour laquelle il peut être utile de se familiariser avec ce sujet. Le système de gestion de base de données est en effet tout aussi capital que l’ensemble de données à proprement parler puisque sans lui, la base de données ne serait pas fonctionnelle.
+  	</p>
+  </div>
+
+  <div>
+  	
+  	<h3>Sommaire</h3>
+
+  	<ol>
+  		<li><a href="#section1">Qu'est ce qu'un SGBD ?</a></li>
+  		<li><a href="#section2">Quels sont les éléments d'un SGBD ?</a></li>
+  		<li><a href="#section3">Taches, fonctions et exigences d'un système de gestion de base de données.</a> </li>
+  		<li><a href="#section4">Quels types de SGBD, modèles de base de données existe-t-il ?</a></li>
+  		<li><a href="#section5">Exemple de SGBD les plus appréciés.</a></li>
+  	</ol>
+
+  </div><br>
+
+  <section id="index1">
+  	
+  	<div class="container3_index">
+  		<h2><a name="section1">Qu'est ce qu'un SGBD ?</a></h2>
+  	</div><br>
+  	<div class="container4_index">
+  		<p>
+  			Une base de données et un système de gestion de base de données, abrégé en SGBD, forment un système de base de données (ce dernier terme est toutefois souvent appelé simplement « base de données »). De manière générale, un SGBD est <strong>un logiciel</strong> qui définit <strong>le modèle d’un système de base de données</strong> et constitue ainsi une composante indispensable à la création, à la gestion et à l’utilisation d’une base de données. L’utilisateur peut uniquement ajouter et lire l’ensemble de données désiré après avoir installé et paramétré le système de gestion de base de données correspondant. Des interfaces spécifiques à l’application et un langage de base de données adapté permettent les <strong>accès en écriture et en lecture</strong> ainsi que les <strong>fonctionnalités d’administration</strong> générales. Le langage de ce type le plus connu est SQL (<strong>S</strong>tructured <strong>Q</strong>uery <strong>L</strong>anguage).
+  		</p>
+  	</div><br>
+
+  	<div class="container5_index">
+  		<h4>! Notes</h4>
+
+  		<p>
+  			Les termes « système de gestion de base de données (SGBD) et « base de données » sont souvent utilisés à tort comme synonymes lorsque l’on souhaite désigner le logiciel de gestion d’une base de données. En réalité, le terme « base de données » renvoie uniquement à la <strong>base de données sous une forme structurée</strong> alors que le SGBD correspond aux composants essentiels permettant de <strong>réaliser ces structures</strong>.
+  		</p>
+  	</div>
+
+  </section><br><br>
+
+  <section id="index2">
+
+  	<div class="container6_index">
+  		<h2><a name="section2">Quels sont les éléments d'un SGBD ?</a></h2>
+  	</div>
+
+  	<div class="container7_index">
+  		<p>
+  			Un système de gestion de base de données est composé de différents éléments contribuant au fonctionnement optimal du logiciel. Le SGBD peut être divisé en trois éléments fondamentaux : le dictionnaire de données, le langage de définition des données et le langage de manipulation des données.
+  		</p>
+
+  		<ul>
+  			<li>
+  				<strong>Dictionnaire de données :</strong> le dictionnaire de données (Data Dictionary) se compose d’un ensemble de métadonnées. Ces métadonnées contiennent des informations sur le contenu des différentes données des mémoires de données. D’autre part, elles fournissent des informations sur l’autorisation d’utilisation des ensembles de données et la représentation physique. Pour faire simple, ce dictionnaire contient donc toutes les informations pertinentes sur les données enregistrées dans une base de données.
+  			</li>
+
+  			<li>
+  				<strong>Langage de définition des données :</strong> le langage de définition des données (LDD) ou Data Definition Language (DDL) a pour but de structurer les contenus d’une base de données. Ce langage permet de générer, modifier et supprimer les différents objets tels que les références, les relations ou les droits d’utilisateur.
+  			</li>
+
+  			<li>
+  				<strong>Langage de manipulation des données :</strong> le langage de manipulation des données (LMD) ou Data Manipulation Language (DML) permet d’insérer, supprimer, modifier et lire les ensembles de données contenus dans une base de données. Par ailleurs, ce langage permet de compresser et d’extraire les données.
+  			</li>
+  		</ul>
+  	</div>
+  	
+  </section><br><br>
+
+  <section id="index3">
+
+  	<div class="container8_index">
+  		<h2><a name="section3">Tâches, fonctions et exigences d’un système de gestion de base de données</a></h2>
+  	</div >
+        
+  	<div class="container9_index">
+  		<p>
+        	Le système de gestion de base de données est le composant le plus important d’un système de base de données. Sans SGBD, il serait impossible d’administrer, commander ou contrôler la base de données. Par ailleurs, le logiciel gère tous les accès à la base de données en lecture et en écriture. Pour décrire les fonctions et les exigences des opérations d’un système de gestion de base de données, on utilise fréquemment l’acronyme ACID pour atomicity, consistency, isolation et durability (atomicité, cohérence, isolation et durabilité). Chacun des termes composant l’acronyme ACID couvre les principales exigences applicables à un SGBD :
+        </p>
+
+        <ul>
+        	<li>L’atomicité est la propriété « tout ou rien » du SGBD qui implique que la transaction complète ne peut être exécutée correctement que si les interrogations sont valides et arrivent dans le bon ordre.</li>
+
+        	<li>La cohérence implique que la base de données reste stable même en cas de transaction réussie ce qui nécessite une vérification constante de toutes les transactions.</li>
+
+        	<li>L’isolation est l’exigence imposant que les transactions soient indépendantes les unes des autres ce qui est souvent garanti par des fonctionnalités de blocage.</li>
+
+        	<li>La durabilité signifie que l’ensemble des données du SGBD doivent être enregistrées durablement, même après la réalisation d’une transaction avec succès. Cela s’applique tout particulièrement en cas d’erreur système ou de panne du SGBD. Cette durabilité est notamment assurée par des journaux de transaction qui documentent l’ensemble des processus dans le SGBD.</li>
+        </ul>
+  	</div><br>
+
+  	<div class="container10_index">
+  		<h4>! Note</h4>
+  		<p>Si vous exploitez votre propre base de données, une sécurisation des données complète est capitale !</p>
+  	</div>
+  	
+  </section><br><br>
+
+  <section id="index4">
+
+       <div class="container11_index">
+       	<h2><a name="section4">Quels types de SGBD/modèles de base de données existe-t-il ?</a></h2>
+       </div>
+
+       <div class="container12_index">
+
+       	<p>
+       		Un système de gestion de base de données est installé sur un système afin de permettre une gestion optimale des ensembles de données. Comme nous l’avons déjà précisé, il existe différents modèles de bases de données qui se distinguent principalement par la <strong>structuration des données</strong>. Le choix d’un SGBD implique donc toujours le choix définitif d’un <strong>modèle de base de données</strong>. Il existe les bases de données suivantes :
+       	</p>
+
+       	<ul>
+       		<li>relationnelles</li>
+       		<li>hiérarchiques</li>
+       		<li>orientées réseau</li>
+       		<li>orientées objet</li>
+       		<li>orientées documents</li>
+       	</ul>
+       	
+       </div>
+  
+  </section><br>
+
+  <section id="index5">
+
+  	<div class="container13_index">
+  		<h2><a name="section5">Exemples de SGBD les plus appréciés</a></h2>
+  	</div>
+
+  	<div class="container14_index">
+  		De nombreux systèmes de gestion de base de données différents sont disponibles. Vous trouverez ci-après les SGBD les plus populaires et les plus courants :
+  	
+
+  	<ul>
+  		<li>Microsoft Access – relationnel</li>
+        <li>Microsoft SQL Server – relationnel</li>
+        <li>MySQL – relationnel</li>
+        <li>Oracle Database – relationnel</li>
+        <li>MongoDB – orienté documents</li>
+        <li>PostgreSQL – relationnel et objet (mélange des approches relationnelle et objet)</li>
+  	</ul>
+</div>
+
+  </section><br><br>
+
+
+
+        <!-- Copyright Section-->
+        <section class="container15_index">
+            <div class="copyright"><p>Ulrich Gerard Emmanuel KOUAKOU</p><p>Copyright © Your Website 2021</p></div>
+        </section>
+        
+ 
+
+</body>
+</html>

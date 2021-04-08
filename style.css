@@ -1,0 +1,38 @@
+body {
+	margin:  80px;
+    text-align: justify;
+   background-color: azure;
+
+}
+
+.image1 {
+	text-align: center;
+}
+
+h2 {
+	color: dodgerblue;
+}
+
+.container5_index, .container10_index{
+
+	background-color: lightpink;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+h4 {
+	color: dodgerblue;
+}
+
+.container2_index, .container4_index, .container7_index,.container9_index, .container12_index, .container14_index{
+	font-size: 18px;
+}
+
+.copyright{
+
+	font-size: 20px;
+	text-align: center;
+	background-color: dodgerblue;
+	color: white;
+}
